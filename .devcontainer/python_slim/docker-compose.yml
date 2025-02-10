@@ -8,5 +8,5 @@ services:
     environment:
       PYTHONPATH: /workspace
     volumes:
-      - ..:/workspace
+      - ../..:/workspace
     command: sleep infinity

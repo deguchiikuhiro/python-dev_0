@@ -1,6 +1,6 @@
 {
   "name": "python",
-  "dockerComposeFile": "python_alpine\\docker-compose.yml",
+  "dockerComposeFile": "python_slim\\docker-compose.yml",
   "service": "workspace",
   "workspaceFolder": "/workspace",
   "customizations": {

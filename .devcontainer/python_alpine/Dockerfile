@@ -1,5 +1,15 @@
-FROM python:3.13-alpine3.21
-USER root
+FROM python:3-alpine
 
-RUN apk update && \
-    apk upgrade
+RUN set -eux; \
+	\
+	apk add --no-cache --virtual .build-deps \
+		gcc \
+		python3-dev \
+		musl-dev \
+		linux-headers \
+	; \
+  pip install --upgrade pip \
+  ; \
+  pip install ipykernel jupyter \
+  ; \
+  apk del --no-network .build-deps

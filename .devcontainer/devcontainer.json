@@ -1,6 +1,6 @@
 {
   "name": "python",
-  "dockerComposeFile": "python_slim\\docker-compose.yml",
+  "dockerComposeFile": "python_uv_slim/docker-compose.yml",
   "service": "workspace",
   "workspaceFolder": "/workspace",
   "customizations": {
@@ -9,7 +9,8 @@
         "ms-python.python",
         "ms-toolsai.jupyter",
         "stuart.unique-window-colors",
-        "oderwat.indent-rainbow"
+        "oderwat.indent-rainbow",
+        "ms-python.vscode-pylance"
       ]
     }
   }

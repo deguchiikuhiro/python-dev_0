@@ -10,7 +10,10 @@
         "ms-toolsai.jupyter",
         "stuart.unique-window-colors",
         "oderwat.indent-rainbow",
-        "ms-python.vscode-pylance"
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+        "ms-toolsai.jupyter-keymap",
+        "ms-python.debugpy"
       ]
     }
   }

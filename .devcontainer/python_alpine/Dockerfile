@@ -10,6 +10,6 @@ RUN set -eux; \
 	; \
   pip install --upgrade pip \
   ; \
-  pip install ipykernel jupyter \
+  pip install ipykernel jupyter ruff\
   ; \
   apk del --no-network .build-deps

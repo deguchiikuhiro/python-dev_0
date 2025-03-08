@@ -6,4 +6,4 @@ RUN set -eux; \
   pip install --upgrade pip \
   ; \
   # Install Basic Packages
-  pip install ipykernel jupyter
+  pip install ipykernel jupyter ruff

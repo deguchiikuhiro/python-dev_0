@@ -11,3 +11,7 @@
 uv init
 uv add --dev ipykernel jupyter
 ```
+
+## コンテナの特徴
+
+- uvの場合、slimでもalpineでもイメージサイズに差異が発生しない。→ slimで進める。

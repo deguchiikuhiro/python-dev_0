@@ -13,7 +13,8 @@
         "ms-python.vscode-pylance",
         "charliermarsh.ruff",
         "ms-toolsai.jupyter-keymap",
-        "ms-python.debugpy"
+        "ms-python.debugpy",
+        "github.copilot-chat"
       ]
     }
   }
